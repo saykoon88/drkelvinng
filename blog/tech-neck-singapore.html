@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Neck Singapore: What It Is, Why It's Getting Worse, and How to Fix It | Dr. Kelvin Ng</title>
+    <meta name="description" content="Tech neck is one of the fastest-growing musculoskeletal complaints among Singapore office workers. Learn what causes it, the symptoms to watch for, and how to fix it with chiropractic care and exercises." />
+    <meta name="keywords" content="tech neck Singapore, tech neck treatment Singapore, forward head posture, text neck, neck pain Singapore, chiropractic Singapore" />
+    <link rel="canonical" href="https://drkelvin.ng.com/blog/tech-neck-singapore" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Tech Neck Singapore: What It Is, Why It's Getting Worse, and How to Fix It" />
+    <meta property="og:description" content="Tech neck is one of the fastest-growing musculoskeletal complaints among Singapore office workers. Learn what it is and how to fix it." />
+    <meta property="og:image" content="/images/tech-neck-singapore.jpg" />
+    <meta property="og:url" content="https://drkelvin.ng.com/blog/tech-neck-singapore" />
+    <meta property="og:type" content="article" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --bg: #09101e;
+      --bg-card: #111827;
+      --bg-card-alt: #0f1a2e;
+      --gold: #c9a860;
+              --gold-light: #e8c97a;
+              --text: #f0ede8;
+              --text-sub: #9ca3af;
+      --text-muted: #6b7280;
+      --border: rgba(255,255,255,.07);
+      --nav-h: 72px;
+      --serif: 'Playfair Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --max: 1160px;
+      --radius: 8px;
+}
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; scroll-padding-top: var(--nav-h); }
+    body {
+            background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 16px;
+      line-height: 1.7;
+}
+
+    /* ---- NAV ---- */
+      nav {
+              position: fixed; top: 0; left: 0; right: 0;
+      height: var(--nav-h);
+      background: rgba(9,16,30,.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      z-index: 100;
+}
+    .nav-container {
+            max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+    .nav-logo {
+            font-family: var(--serif);
+              font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+}
+    .nav-logo span { color: var(--gold); }
+    .nav-links {
+            display: flex;
+      align-items: center;
+      gap: 2rem;
+      list-style: none;
+}
+    .nav-links a {
+            color: var(--text-sub);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: color 0.2s;
+}
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta {
+            background: var(--gold);
+      color: #09101e !important;
+      padding: 0.45rem 1.1rem;
+      border-radius: var(--radius);
+      font-weight: 600 !important;
+}
+    .nav-cta:hover { background: var(--gold-light) !important; color: #09101e !important; }
+
+    /* ---- BLOG LAYOUT ---- */
+    .blog-hero {
+            padding-top: calc(var(--nav-h) + 60px);
+      padding-bottom: 40px;
+      background: linear-gradient(180deg, #0d1525 0%, var(--bg) 100%);
+}
+    .blog-container {
+            max-width: 780px;
+      margin: 0 auto;
+      padding: 0 24px;
+}
+
+    .breadcrumb {
+            font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+}
+    .breadcrumb a {
+            color: var(--gold);
+      text-decoration: none;
+    }
+    .breadcrumb a:hover { text-decoration: underline; }
+    .breadcrumb span { margin: 0 6px; }
+
+    .post-category {
+            display: inline-block;
+      background: rgba(201,168,96,.15);
+      color: var(--gold);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid rgba(201,168,96,.3);
+      margin-bottom: 18px;
+}
+
+    .post-title {
+            font-family: var(--serif);
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      color: var(--text);
+      margin-bottom: 20px;
+}
+
+    .post-meta {
+            display: flex;
+      align-items: center;
+      gap: 20px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+}
+    .post-meta strong { color: var(--text-sub); }
+
+    .post-featured-image {
+            width: 100%;
+      border-radius: var(--radius);
+      margin: 36px 0;
+      display: block;
+      border: 1px solid var(--border);
+}
+
+    /* ---- ARTICLE BODY ---- */
+    .post-body {
+            padding-bottom: 80px;
+}
+    .post-body p {
+            margin-bottom: 1.4em;
+      color: var(--text);
+      font-size: 1.05rem;
+      line-height: 1.8;
+}
+    .post-body h2 {
+            font-family: var(--serif);
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--text);
+      margin: 2.4em 0 0.8em;
+      padding-bottom: 0.5em;
+      border-bottom: 1px solid var(--border);
+}
+    .post-body h2::before {
+            content: '';
+      display: inline-block;
+      width: 3px;
+      height: 1.1em;
+      background: var(--gold);
+      margin-right: 12px;
+      vertical-align: middle;
+      border-radius: 2px;
+}
+    .post-body ul {
+            list-style: none;
+      margin: 0.5em 0 1.6em;
+      padding: 0;
+}
+    .post-body ul li {
+            padding: 0.4em 0 0.4em 1.6em;
+      position: relative;
+      color: var(--text);
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+    .post-body ul li::before {
+            content: '';
+                    position: absolute;
+      left: 0;
+      top: 0.85em;
+      width: 6px;
+      height: 6px;
+      background: var(--gold);
+      border-radius: 50%;
+    }
+
+    .callout {
+            background: var(--bg-card);
+      border-left: 3px solid var(--gold);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 20px 24px;
+      margin: 2em 0;
+    }
+    .callout p {
+            margin: 0 !important;
+      font-size: 1rem !important;
+      color: var(--text-sub) !important;
+    }
+    .callout strong { color: var(--gold); }
+
+    /* ---- AUTHOR BOX ---- */
+    .author-box {
+            background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      margin: 48px 0 32px;
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+}
+    .author-avatar {
+            width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold) 0%, #8b6914 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--serif);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #09101e;
+      flex-shrink: 0;
+}
+    .author-info h4 {
+            font-family: var(--serif);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 4px;
+}
+    .author-info p {
+            font-size: 0.88rem;
+      color: var(--text-sub);
+      line-height: 1.6;
+      margin: 0 !important;
+}
+
+    /* ---- CTA ---- */
+    .post-cta {
+            text-align: center;
+      background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-card-alt) 100%);
+      border: 1px solid rgba(201,168,96,.25);
+      border-radius: var(--radius);
+      padding: 48px 32px;
+      margin-top: 48px;
+}
+    .post-cta h3 {
+            font-family: var(--serif);
+      font-size: 1.5rem;
+      color: var(--text);
+      margin-bottom: 12px;
+}
+    .post-cta p {
+            color: var(--text-sub);
+      margin-bottom: 24px;
+      font-size: 0.95rem;
+}
+    .btn-gold {
+            display: inline-block;
+      background: var(--gold);
+      color: #09101e;
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 0.75rem 2rem;
+      border-radius: var(--radius);
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+}
+    .btn-gold:hover { background: var(--gold-light); transform: translateY(-1px); }
+
+    /* ---- FOOTER ---- */
+    footer {
+            background: #060d18;
+      border-top: 1px solid var(--border);
+      padding: 32px 24px;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.82rem;
+}
+    footer a { color: var(--gold); text-decoration: none; }
+
+    @media (max-width: 640px) {
+      .author-box { flex-direction: column; }
+      .nav-links { display: none; }
+      }
+  </style>
+      </head>
+      <body>
+
+        <!-- NAVIGATION -->
+        <nav>
+          <div class="nav-container">
+            <a href="/" class="nav-logo">Dr. Kelvin <span>Ng</span></a>
+            <ul class="nav-links">
+              <li><a href="/#about">About</a></li>
+              <li><a href="/#speaking">Speaking</a></li>
+              <li><a href="/#services">Services</a></li>
+              <li><a href="/#blog">Resources</a></li>
+              <li><a href="/#contact" class="nav-cta">Get in Touch</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- BLOG HERO -->
+        <section class="blog-hero">
+          <div class="blog-container">
+
+            <div class="breadcrumb">
+              <a href="/">Home</a>
+              <span>/</span>
+              <a href="/#blog">Resources</a>
+              <span>/</span>
+              Tech Neck Singapore
+      </div>
+
+      <div class="post-category">Posture &amp; Spine Health</div>
+
+      <h1 class="post-title">Tech Neck Singapore: What It Is, Why It's Getting Worse, and How to Fix It</h1>
+
+              <div class="post-meta">
+                <span>By <strong>Dr. Kelvin Ng</strong></span>
+                <span>Doctor of Chiropractic &bull; Certified Ergonomist</span>
+        <span>Singapore</span>
+      </div>
+
+    </div>
+  </section>
+
+          <!-- ARTICLE BODY -->
+  <article class="blog-container post-body">
+
+            <img
+              src="/images/tech-neck-singapore.jpg"
+              alt="Person sitting on bed using a tablet with highlighted spine showing tech neck pain"
+              class="post-featured-image"
+            />
+
+            <p>If you've ever finished a workday with a stiff neck, tension headaches, or aching shoulders, there's a good chance tech neck is to blame. It's one of the fastest-growing musculoskeletal complaints among Singapore office workers — and one of the most preventable.</p>
+
+            <h2>What is tech neck?</h2>
+
+            <p>Tech neck (also called text neck or forward head posture) occurs when the head is held forward of the body's natural centre of gravity — typically from looking down at a phone or hunching toward a computer screen. For every inch the head moves forward, it effectively adds about 10 lbs of load on the cervical spine. At a 60-degree forward tilt (typical smartphone posture), that's the equivalent of carrying a 60-lb weight on your neck.</p>
+
+    <h2>Why Singapore is particularly affected</h2>
+
+    <p>Singapore ranks among the world's highest for smartphone usage and average daily screen time. Combined with long office hours, a largely sedentary workforce, and hot weather that discourages outdoor breaks, the conditions for chronic tech neck are almost ideal.</p>
+
+    <h2>Symptoms to watch for</h2>
+
+    <ul>
+      <li>Persistent neck stiffness, especially in the morning or end of the workday</li>
+      <li>Tension headaches originating at the base of the skull</li>
+      <li>Rounded upper back and forward-jutting chin</li>
+      <li>Tingling or numbness in the arms or hands</li>
+      <li>Reduced neck range of motion</li>
+    </ul>
+
+    <h2>How to fix it</h2>
+
+    <p>The most effective approach combines three things: correcting your ergonomic setup, targeted postural exercises, and — for established cases — professional care.</p>
+
+    <p><strong>For your workstation:</strong> raise your monitor to eye level, sit with your back supported and feet flat, and keep your phone at face height rather than looking down at it.</p>
+
+            <p><strong>For exercises,</strong> three of the most effective moves are chin tucks (gently drawing the chin back to create a "double chin" position, held for 5 seconds, 10 repetitions), shoulder blade squeezes, and thoracic extension over a foam roller.</p>
+
+    <p><strong>For professional care:</strong> chiropractic adjustments can correct vertebral subluxations in the cervical spine caused by sustained forward head posture. Combined with posture rehabilitation exercises, this addresses both the structural problem and the muscular imbalances maintaining it.</p>
+
+    <h2>When to see a professional</h2>
+
+            <div class="callout">
+              <p><strong>Important:</strong> If your symptoms have been present for more than 2–3 weeks, are worsening, or are accompanied by arm numbness or tingling, it's worth getting a professional assessment rather than relying on self-treatment alone.</p>
+            </div>
+
+            <!-- AUTHOR -->
+            <div class="author-box">
+              <div class="author-avatar">KN</div>
+              <div class="author-info">
+                <h4>Dr. Kelvin Ng</h4>
+                <p>Doctor of Chiropractic and Certified Ergonomist based in Singapore. Dr. Kelvin helps patients with tech neck and posture-related conditions at Family Health Chiropractic Clinic, and conducts workplace talks on posture and spinal health for corporate clients.</p>
+      </div>
+    </div>
+
+            <!-- CTA -->
+            <div class="post-cta">
+              <h3>Struggling with neck pain or tech neck?</h3>
+              <p>Book a consultation with Dr. Kelvin Ng at Family Health Chiropractic Clinic, Singapore.</p>
+      <a href="/#contact" class="btn-gold">Get in Touch</a>
+            </div>
+
+          </article>
+
+          <!-- FOOTER -->
+          <footer>
+            <p>&copy; 2025 Dr. Kelvin Ng &mdash; Chiropractor &bull; Speaker &bull; Ergonomist &bull; Singapore &nbsp;|&nbsp; <a href="/">Back to Home</a></p>
+  </footer>
+
+</body>
+</html>
