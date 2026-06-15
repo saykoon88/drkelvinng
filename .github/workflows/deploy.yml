@@ -10,8 +10,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Clean node_modules
-        run: rm -rf node_modules
+      - name: Prepare public directory
+        run: |
+          mkdir -p public
+          cp index.html public/
+          cp -r css public/
+          cp -r js public/
+          cp -r images public/
+          cp -r blog public/
       - name: Deploy to Cloudflare
         uses: cloudflare/wrangler-action@v3
         with:
